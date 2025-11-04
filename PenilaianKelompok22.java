@@ -23,6 +23,18 @@ public class PenilaianKelompok22 {
             System.out.println();
 
             i++;
+
+            double rataTertinggi = 0;
+            int kelompokTerbaik = 0;
+
+
+            if (rataNilai > rataTertinggi) {
+             rataTertinggi = rataNilai;
+             kelompokTerbaik = i - 1;
+            }
+
+            System.out.println("\nKelompok dengan rata-rata tertinggi adalah Kelompok ke-" 
+                    + kelompokTerbaik + " dengan rata-rata " + rataTertinggi);
         }
 
     }
